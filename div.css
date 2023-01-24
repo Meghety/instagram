@@ -45,6 +45,18 @@
     row-gap: 10px;
 }
 
+@media (max-width: 1020px) {
+    .div8 {
+        grid-template-columns: 300px 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .div8 {
+        grid-template-columns: 300px;
+    }
+}
+
 .div9{
     display: flex;
     flex-direction: row;
