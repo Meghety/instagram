@@ -43,6 +43,7 @@
     grid-template-columns: 300px 300px 300px;
     column-gap: 20px;
     row-gap: 10px;
+    justify-content: center;
 }
 
 @media (max-width: 1020px) {
