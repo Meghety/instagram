@@ -82,6 +82,13 @@
     z-index: 1;
 }
 
+@media (max-width: 1020px) {
+    .line {
+        width:700px;
+    }
+}
+
+
 .line-over{
     position: absolute;
     height: 2px;
