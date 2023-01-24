@@ -1,0 +1,91 @@
+
+
+.div2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+
+.div3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    text-align: center;
+
+}
+
+.div4{
+    margin-left: 10%;
+
+}
+
+.div5{
+    width: 250px;
+}
+
+.div6{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.div7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div8{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.div9{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+
+}
+
+.div10{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.line{
+    margin-top: 50px;
+    height: 2px;
+    background: rgb(0, 0, 0,0.2);
+    width: 940px;
+    position: relative;
+    z-index: 1;
+}
+
+.line-over{
+    position: absolute;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    width: 50px;
+    left: 323px;
+    z-index: 2;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 225px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0,0.2);
+}
